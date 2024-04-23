@@ -1,6 +1,12 @@
-
-h1{
+.titulo-centralizado{
   text-align: center;
+}
+.principal{
+  background: #CCCCCC;
+  padding: 30px;
+}
+.titulo-principal{
+  padding-left: 30px ;
 }
 em strong{
   color: #ff0000;
@@ -16,6 +22,3 @@ p {
   width: 100%;
 }
 
-h2{
-  text-align:center;
-}
