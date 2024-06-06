@@ -89,7 +89,14 @@ footer{
   
 }
 
+main{
+  width: 940px;
+ margin: 40px 0;
+}
 
+form{
+  margin:40px 0
+}
 
 
 
