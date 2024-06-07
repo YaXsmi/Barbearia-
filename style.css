@@ -1,16 +1,15 @@
+
 .titulo-principal{
   padding-left: 30px;
-  color: #9f00f5;
 }
 
 .principal{
-  background-color: #ead0fb;
+  background-color: #ebb3ff;
   padding: 30px;
 }
 
 .titulo-centralizado{
   text-align: center;
-  color: #9f00f5;
 }
 
 p {
@@ -22,7 +21,7 @@ p {
 }
 
 em strong{
-  color: #9f00f5;
+  color: #9300f5;
 }
 
 #banner{
@@ -32,7 +31,7 @@ em strong{
 ul {
   display: inline-block;
   vertical-align: top;
-  width: 20%;
+  width: 30%;
   margin-right: 15%;
 }
 

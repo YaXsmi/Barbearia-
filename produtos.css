@@ -66,9 +66,13 @@ nav a:hover{
   
 }
 
-.produtos li:hover}
- border-color: #c78c19;
+.produtos li:hover{
+  
+  border-color: #8c00ff;
 }
+
+ 
+
 
 .produtos li:hover h2{
      font-size: 34px;
@@ -86,17 +90,20 @@ footer{
   color: #ffffff;
   font-size: 13px;
   margin-top: 20px;
-  
 }
 
 main{
   width: 940px;
- margin: 40px 0;
+  margin: 40px auto;
 }
 
 form{
-  margin:40px 0
+  margin:40px 0;
 }
 
-
-
+.input-padrao{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
