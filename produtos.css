@@ -1,9 +1,7 @@
 header {
-  background: #e6c7ff;
+  background-color: lightslategray;
   padding: 20px 0;
 }
-
-
 
 .caixa{
   width: 940px;
@@ -11,7 +9,7 @@ header {
   margin: 0 auto;
 }
 
-nav {
+nav{
   position: absolute;
   top: 110px;
   right: 0;
@@ -20,70 +18,70 @@ nav {
 nav li{
   display: inline;
   margin-left: 15px;
-}
+    }
 
 nav a{
-  color: #c31fff;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
-}
+}  
 
 nav a:hover{
-  color: #60089b;
+  color: gold;
   text-decoration: underline;
 }
 
 .produtos{
-    width: 940px;
-    margin: 0 auto;
-    padding: 50px ;
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
 }
+
 .produtos li{
-    display: inline-block;
-    text-align: center;
-    width: 30% ;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    box-sizing: border-box;
-    border: 2px  solid  #000000;
-    border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
 .produtos h2{
- font-size: 30px;
- font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
+
 .produtos-descricao{
-    font-size: 18px;
+  font-size: 18px;
 }
+
 .produtos-preco{
   font-size: 22px;
   font-weight: bold;
-  margin: 10px 0 0 0;
-  
+  margin-top: 10px 0 0 0;
 }
 
 .produtos li:hover{
-  
-  border-color: #8c00ff;
+  border-color: gold;
 }
 
- 
-
-
 .produtos li:hover h2{
-     font-size: 34px;
-} 
+  font-size: 34px;
+}
 
 .produtos li:active{
-    border-color: #088c19; }
+  border-color: slateblue;
+}
+
 footer{
-    text-align: center;
-    background: url(bg.jpg);
-    padding: 40px 0; 
+  text-align: center;
+  background: url(bg.jpg);
+  padding: 40px 0;
 }
 
 .copyright{
@@ -94,11 +92,17 @@ footer{
 
 main{
   width: 940px;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 form{
-  margin:40px 0;
+  margin: 40px 0;
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 10px;
 }
 
 .input-padrao{
