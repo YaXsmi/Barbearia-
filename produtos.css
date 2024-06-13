@@ -1,5 +1,5 @@
 header {
-  background-color: lightslategray;
+  background-color: #d1c7e1;
   padding: 20px 0;
 }
 
@@ -75,7 +75,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-  border-color: slateblue;
+  border-color: #8a16fe;
 }
 
 footer{
@@ -110,4 +110,41 @@ form label, form legend{
   margin-bottom: 20px;
   padding: 10px 25px;
   width: 50%;
+}
+
+.checkbox{
+  margin: 20px 0;
+}
+
+.enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: #ffbb00;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.enviar:hover{
+  background: #ff9500;
+  transform: scale(1.1);
+}
+
+table{
+  margin: 20px 0 40px;
+}
+thead{
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+th, td{
+  border: 2px solid #000000;
+  padding: 10px;
+  text-align: center;
+  
 }
