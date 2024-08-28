@@ -5,7 +5,7 @@ body{
 }
 
 header {
-  background-color: lightslategray;
+  background-color: #606366;
   padding: 20px 0;
 }
 
@@ -242,4 +242,13 @@ th, td {
 
 .lista-beneficios .item:first-child{
   font-weight: bold;
+}
+
+@media screen and (max-width:480px){
+  .caixa, .principal, .mapa-conteudo, .mapa, .beneficios, .video{
+    width:auto;
+  }
+  nav{
+    position: static;
+  }
 }
